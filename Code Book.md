@@ -29,7 +29,7 @@ The raw measurements obtained in the experiment were normalised and saved in fil
 
 
 ###Cleaning of the data
-The script combines the training and test data measurements into one data table and add the varaible names to the columns. The relevant variables (those whose name contains "mean" or "std") are extracted to a new data table and columns recording the subject number and activity measured on each row are appended to the left of the data table. The column names are tidied up into a form appropriate to R and then the table is regrouped so that the means of each variable can be cakcukated and presented for every subject-activity combination. A more detailed description can be found in the [README.md file.]  (https://github.com/renrele/GettingAndCleaningData/commit/6912b3d9ad25d8d88d34bdfd19084d50bc27c272)
+The script combines the training and test data measurements into one data table and add the varaible names to the columns. The relevant variables (those whose name contains "mean" or "std") are extracted to a new data table and columns recording the subject number and activity measured on each row are appended to the left of the data table. The column names are tidied up into a form appropriate to R and then the table is regrouped so that the means of each variable can be cakcukated and presented for every subject-activity combination. A more detailed description can be found in the [README.md file.]  (https://github.com/renrele/GettingAndCleaningData/blob/master/README.md)
 
 ##Description of the variables in the tidy.txt file
 *The dataset has 180 rows and 88 columns. The rows represent average measurements of the variables for 30 subjects who each performed 6 activities.
